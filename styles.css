@@ -99,7 +99,7 @@ p {
   margin: 0 0 0.75rem;
 }
 
-.coming-soon,
+.app-status,
 .meta {
   color: var(--muted);
 }
@@ -134,7 +134,9 @@ p {
   border-radius: 16px;
   border: 1px solid var(--border);
   background: #fafafa;
+  object-fit: cover;
 }
+
 
 .features {
   display: grid;
