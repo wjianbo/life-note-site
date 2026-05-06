@@ -64,6 +64,20 @@ a:focus-visible {
   margin: 0.7rem 0 1rem;
 }
 
+.hero-top {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+}
+
 .eyebrow {
   margin: 0;
   color: var(--muted);
@@ -73,7 +87,7 @@ a:focus-visible {
 h1 {
   font-size: clamp(1.4rem, 3.5vw, 2rem);
   line-height: 1.25;
-  margin: 0.35rem 0 0.9rem;
+  margin: 0.35rem 0 0.4rem;
 }
 
 h2 {
@@ -88,7 +102,38 @@ p {
 .coming-soon,
 .meta {
   color: var(--muted);
-  margin-bottom: 0;
+}
+
+.appstore-wrap {
+  margin: 0.3rem 0 0;
+}
+
+.appstore-link {
+  display: inline-block;
+  color: #fff;
+  background: #111;
+  padding: 0.55rem 0.9rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.screenshots {
+  margin-bottom: 1rem;
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.screenshot-grid img {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #fafafa;
 }
 
 .features {
@@ -102,9 +147,17 @@ p {
   margin: 0.7rem auto 1.4rem;
 }
 
+.support-download {
+  margin-top: 1rem;
+}
+
 @media (min-width: 680px) {
   .features {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .screenshot-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .card {

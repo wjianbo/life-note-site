@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#f5f7f3"/>
+  <text x="30" y="58" font-size="26" fill="#3e4e43" font-family="-apple-system,Segoe UI,sans-serif">weekly summary</text>
+  <rect x="24" y="92" width="342" height="208" rx="16" fill="#ffffff" stroke="#dbe3da"/>
+  <rect x="24" y="322" width="342" height="92" rx="16" fill="#ffffff" stroke="#dbe3da"/>
+  <rect x="24" y="430" width="342" height="92" rx="16" fill="#ffffff" stroke="#dbe3da"/>
+  <rect x="24" y="538" width="342" height="92" rx="16" fill="#ffffff" stroke="#dbe3da"/>
+</svg>
