@@ -108,10 +108,27 @@ p {
   margin: 0.3rem 0 0;
 }
 
+.store-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
+
 .appstore-link {
   display: inline-block;
   color: #fff;
   background: #111;
+  padding: 0.55rem 0.9rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.apk-link {
+  display: inline-block;
+  color: var(--text);
+  background: #e8f0ea;
+  border: 1px solid #cfdccf;
   padding: 0.55rem 0.9rem;
   border-radius: 10px;
   font-size: 0.9rem;
